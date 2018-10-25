@@ -1,15 +1,19 @@
 package javaversion8;
 
+import java.io.Serializable;
+
 /**
  * @author cxc
  * @date 2018/10/25 11:15
  */
-public class OptionalUser {
+public class OptionalUser implements Serializable{
+
+    private static final long serialVersionUID = 5814997214510443745L;
     private String name;
     private Integer age;
     private String address;
 
-    public OptionalUser(String name,String address) {
+    public OptionalUser(String name, String address) {
         this.name = name;
         this.address = address;
     }
