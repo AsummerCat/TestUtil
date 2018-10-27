@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="691a9189-aa82-419a-a7bc-5c69b5baa31f" name="Default" comment="">
-<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/out/production/TestUtil/javaversion8/OptionalTest.class" afterPath="$PROJECT_DIR$/out/production/TestUtil/javaversion8/OptionalTest.class" />
       <change beforePath="$PROJECT_DIR$/src/javaversion8/OptionalUser.java" afterPath="$PROJECT_DIR$/src/javaversion8/OptionalUser.java" />
 =======
@@ -33,7 +32,6 @@
 =======
             <state relative-caret-position="414">
               <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
->>>>>>> 1
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
