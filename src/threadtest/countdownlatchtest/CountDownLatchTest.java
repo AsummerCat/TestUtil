@@ -18,15 +18,11 @@ public class CountDownLatchTest {
         ExecutorService executorService = Executors.newCachedThreadPool();
         executorService.execute(new CountDownLatchThread(countDownLatch, "小明"));
         executorService.execute(new CountDownLatchThread(countDownLatch, "小强"));
-
         //这边 countDown 执行
         executorService.execute(new CountDownLatchThread1(countDownLatch, "小西"));
         executorService.execute(new CountDownLatchThread1(countDownLatch, "小黑"));
         executorService.execute(new CountDownLatchThread1(countDownLatch, "小白"));
         executorService.execute(new CountDownLatchThread1(countDownLatch, "小绿"));
         executorService.execute(new CountDownLatchThread1(countDownLatch, "小美"));
-
-
     }
-
 }
