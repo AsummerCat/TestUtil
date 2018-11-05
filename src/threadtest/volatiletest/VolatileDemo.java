@@ -1,5 +1,7 @@
 package threadtest.volatiletest;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * @author cxc
  * @date 2018/11/5 13:00
@@ -7,25 +9,19 @@ package threadtest.volatiletest;
 public class VolatileDemo {
     private static volatile boolean flag = false;
 
-    public static void main(String[] args) {
-        for (int i = 0; i < 100; i++) {
-            new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    while (!flag) {
-                        System.out.println("未选中");
-                        try {
-                            Thread.sleep(500);
-                        } catch (InterruptedException e) {
-                            e.printStackTrace();
-                        }
-                    }
-                    System.out.println("结束");
+    public static void main(String[] args) throws InterruptedException{
+        Thread t1 = new Thread(){
+            int i = 0;
+            @Override
+            public void run(){
+                while(!flag){
                 }
-            }).start();
-        }
+            }
+        };
 
-        System.out.println("--->主线程 修改flag");
-        flag=true;
+        t1.start();
+        TimeUnit.SECONDS.sleep(1);
+        flag = true;
     }
+
 }
