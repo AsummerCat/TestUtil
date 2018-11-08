@@ -10,7 +10,8 @@ import java.util.concurrent.Executors;
  * CyclicBarrier 回环栅栏
  */
 public class CyclicBarrierTest {
-    static final CyclicBarrier cyclicBarrier = new CyclicBarrier(5);
+    static int n=5;
+    static final CyclicBarrier cyclicBarrier = new CyclicBarrier(n);
 
     public static void main(String[] args) {
         //小明和小强在等待5个人的车子开出去后出发   这边使用 await() 等待
