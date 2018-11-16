@@ -1,6 +1,7 @@
 package proxytest.Invocationproxy;
 
 /**
+ * 动态代理
  * @author cxc
  * @date 2018/11/16 16:14
  */
