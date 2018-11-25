@@ -1,4 +1,4 @@
-package designmode;
+package designmode.simplefactory;
 
 /**
  * 简单工厂模式

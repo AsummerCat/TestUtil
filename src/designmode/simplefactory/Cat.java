@@ -1,4 +1,4 @@
-package designmode;
+package designmode.simplefactory;
 
 /**
  * 小猫
