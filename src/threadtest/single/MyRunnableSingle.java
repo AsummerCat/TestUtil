@@ -17,6 +17,7 @@ public class MyRunnableSingle implements Runnable {
         System.out.println("-->>>>单线程数线程池" + name + "开始");
         try {
             Thread.sleep(2000);
+           int i=5/0;
         } catch (Exception e) {
             e.printStackTrace();
         }

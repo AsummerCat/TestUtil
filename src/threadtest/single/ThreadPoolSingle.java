@@ -14,7 +14,6 @@ public class ThreadPoolSingle {
         int n = 100;
         for (int i = 0; i < n; i++) {
             executorService.execute(new MyRunnableSingle(String.valueOf(i)));
-
         }
     }
 }
