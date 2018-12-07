@@ -36,7 +36,6 @@ public class OutOfMemoryErrorTest {
             list.add(new String("1"));
             list.add(new String("1"));
             list.add(new String("1"));
-            System.gc();
         }
         list.size();
     }
