@@ -25,7 +25,6 @@ public class OutOfMemoryErrorTest {
     static void test() {
         List list = new ArrayList();
         for (int i = 1; i < 10000000; i++) {
-            System.out.println(1);
             list.add(new String("1"));
             list.add(new String("1"));
             list.add(new String("1"));
