@@ -31,6 +31,7 @@ public class HashMapAndHashTable {
     private static void hashMapAdd() {
         Map map = new HashMap<>();
         map.put(null, 1);
+        map.get("1");
         Collection values = map.values();
         values.forEach(data -> System.out.println("hashMap的值:" + data.toString()));
         Set set = map.entrySet();
