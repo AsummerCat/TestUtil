@@ -9,7 +9,7 @@ import java.util.*;
  * @author cxc
  * @date 2018/12/31 14:29
  */
-public class MyHashMap<K, V> extends AbstractMap<K, V> implements Map<K, V>, Cloneable, Serializable {
+public class MyHashMap<K, V> extends AbstractMap<K, V> implements Cloneable, Serializable {
     /**
      * 序列化
      */
