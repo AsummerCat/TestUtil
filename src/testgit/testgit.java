@@ -1,4 +1,4 @@
-package threadtest;
+package testgit;
 
 /**
  * @author cxc
